@@ -1,4 +1,4 @@
-Results Site: https://uuugeen.github.io/Brothers_of_Honor/
+Results Site: https://pobratym.info
 
 This project implements the following:
 
