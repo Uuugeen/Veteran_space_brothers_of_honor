@@ -1,0 +1,79 @@
+.values {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    padding: 2.5rem;
+}
+
+.values__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.values__content p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.values__element {
+  display: flex;
+  align-items: flex-start; 
+  gap: 1rem;
+  margin-bottom: 1.875rem;
+}
+
+.values__element:last-child {
+    margin-bottom: 0;
+}
+
+.values__header::after {
+    content: url(/img/icons/ukraine-icon.svg);
+    position: absolute;
+    top: 50%;
+    left: 9.375rem;
+    transform: translate(-50%, -50%);
+}
+
+.values__header {
+    position: relative;
+}
+
+.values__minheader {
+    margin-left: 0;
+    margin-bottom: 1.25rem;
+    font-size: 1.125rem;
+}
+
+.values__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+.values__icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+.values__content {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 43.75rem) {
+    .values {
+        padding: 1rem 0.5rem;
+        gap: 1rem;
+    }
+    .values__minheader {
+        margin-left: 2.5rem;
+        font-size: 1rem;
+    }
+    
+}
+

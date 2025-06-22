@@ -1,0 +1,30 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+}
+
+.contacts:first-child {
+    gap: 0;
+}
+
+.contacts__paragraph {
+    font-weight: bold;
+}
+
+.contacts p:hover {
+    color: #dddddd;
+}
+
+.contacts__header {
+    position: relative;
+}
+
+.contacts__header::after {
+    content: url(/img/icons/contacts-icon.svg);
+    position: absolute;
+    top: 50%;
+    left: 10.625rem;
+    transform: translate(-50%, -50%);
+}
