@@ -4,6 +4,8 @@
     gap: 1.25rem;
 }
 
+
+
 .about__header {
     margin-left: 1.25rem;
     margin-top: 1.25rem;
@@ -12,12 +14,14 @@
     position: relative;
 }
 
-.about__header::after {
-    content: url(/img/icons/gerb-icon.svg);
-    position: absolute;
-    top: 50%;
-    left: 9.375rem;
-    transform: translate(-50%, -30%);
+.about__block {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.about__block svg {
+    margin-right: 1.25rem;
 }
 
 @media (max-width: 43.75rem) {
@@ -26,6 +30,7 @@
         margin-top: 0.5rem;
         font-size: 1.2rem;
     }
+    
 }
 
 @media (max-width: 25rem) {
