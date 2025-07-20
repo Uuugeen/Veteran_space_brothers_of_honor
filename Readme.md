@@ -1,31 +1,59 @@
-Results Site: https://pobratym.info
+# 📬 Veteran Space for Reintegration “Brothers of Honor”
 
-This project implements the following:
+**🌐 Live Site:** [https://pobratym.info](https://pobratym.info)
 
-Landing page for a veteran organization The site contains information about the organization "Veteran Space for Reintegration "Brothers of Honor"", its values, news, partners, projects and contacts.
+This project implements a responsive, multi-section static website for the Ukrainian veteran organization **"Brothers of Honor"**, with dynamic Facebook news integration and a user-friendly design.
 
-Responsive design All styles (css/style.css and other CSS files) ensure correct display on different devices (desktop, tablet, mobile).
+---
 
-Multi-section structure
+## ✨ Features
 
-About us: description of the organization's mission and activities. Values: block with key principles, each with an icon (css/values.css). News: automatic loading of the latest posts from Facebook via Meta Graph API (js/API.js), with support for a photo/video slider. Partners: logos of partner organizations (section hidden by default via CSS). Our projects: description and photos of the main initiatives. Contacts: phone, address, email, Facebook. Automatic news loading from Facebook
+### 🏠 Landing Page
 
-Uses fetchFacebookPosts to retrieve posts via Facebook Graph API. Displaying photos/videos as a slider, automatic scrolling of slides. API error handling. Smooth scroll navigation
+- Clean, informative homepage representing the organization and its mission.
+- Built with plain HTML, CSS, and JavaScript — no backend.
 
-Smooth transition to sections when clicking on menu items (js/script.js). Header height is taken into account for correct positioning. SEO and Open Graph
+### 📱 Responsive Design
 
-Meta tags for search engines and social networks. Schema.org structured data for the organization. Brand fonts
+- Layout and styles adapt to desktop, tablet, and mobile devices.
+- Mobile UX improvements: some elements are hidden on small screens.
 
-Connection of e-Ukraine custom fonts (css/font.css). Documentation
+### 📚 Sections
 
-Link to the statute, non-profit statement and ownership structure in the footer. Developer contacts
+- **About Us**: Mission and goals of the organization.
+- **Values**: Key principles displayed with icons (`css/values.css`).
+- **News**: Live Facebook feed using Meta Graph API (`js/API.js`) with a photo/video slider.
+- **Partners**: Logos of partner organizations (initially hidden via CSS).
+- **Projects**: Descriptions and photos of core initiatives.
+- **Contacts**: Phone, email, address, Facebook link.
 
-The footer contains the developer's contacts and a link to GitHub. Icons and graphics
+### 🔄 Facebook API Integration
 
-SVG icons are used for sections (e.g., coat of arms, icons of values, contacts). No unnecessary elements on mobile
+- Uses `fetchFacebookPosts()` to retrieve latest posts via the Facebook Graph API.
+- Displays media in an auto-scrolling slider.
+- Includes API error handling.
 
-Some menu and navigation elements are hidden on small screens for user convenience. Core files:
+### 🧭 Smooth Scroll Navigation
 
-index.html — page structure.
+- Smooth transitions between sections on menu click (`js/script.js`).
+- Correct offset based on header height.
 
-API.js — loading news from Facebook. script.js — smooth navigation. CSS files for each block: style.css, header.css, about.css, values.css, news.css, partners.css, projects.css, contacts.css, footer.css, font.css. The project is completely static, does not use server logic, but integrates with the Facebook API for dynamic content.
+### 🔍 SEO & Open Graph
+
+- SEO-friendly meta tags and Open Graph tags for link sharing.
+- Structured data using Schema.org.
+
+### 🖋 Branding & UI
+
+- Custom **e-Ukraine** fonts (`css/font.css`).
+- SVG icons for values, contact info, and coat of arms.
+
+### 🧾 Legal & Developer Info
+
+- Links to organizational documents (statute, ownership) in the footer.
+- Developer contact and GitHub profile also in the footer.
+
+---
+
+## 📁 Project Structure
+
