@@ -57,19 +57,4 @@ This project implements a responsive, multi-section static website for the Ukrai
 
 ## 📁 Project Structure
 
-index.html # Page structure
-js/
-├── API.js # Facebook API integration
-└── script.js # Smooth scrolling logic
-
-css/
-├── style.css # Main stylesheet
-├── font.css # Fonts
-├── header.css
-├── about.css
-├── values.css
-├── news.css
-├── partners.css
-├── projects.css
-├── contacts.css
-└── footer.css
+<img width="480" height="488" alt="image" src="https://github.com/user-attachments/assets/3f7d4cb6-e2df-45e0-95c6-9485d27d7ee4" />
